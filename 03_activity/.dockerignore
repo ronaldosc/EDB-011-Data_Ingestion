@@ -1,0 +1,14 @@
+# Ignore the panthon_scripts directory if it's not needed in the image
+# panthon_scripts/
+
+# Ignore system files and *.yml (in this case, Docker Compose)
+.DS_Store
+docker-compose.yml
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other unnecessary files or directories 
+*.log
